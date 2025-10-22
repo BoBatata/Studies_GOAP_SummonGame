@@ -5,6 +5,9 @@ public class PlayerController : MonoBehaviour
 {
     public InputController inputController;
     public PlayerMovement playerMovement;
+    
+    public float maxHealth = 100f;
+    public float health = 100f;
 
     private void Awake()
     {
